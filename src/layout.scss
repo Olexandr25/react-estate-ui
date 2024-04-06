@@ -1,22 +1,22 @@
 @import './responsive.scss';
 
 .layout {
-  background-color: rebeccapurple;
+  background-color: rgba(102, 51, 153, 0.4);
   height: 100svh;
   max-width: 1366px;
   margin: 0 auto;
   padding: 0 20px;
 
   @include lg {
-    background-color: lightgreen;
+    background-color: rgba(144, 238, 144, 0.4);
     max-width: 1280px;
   }
   @include md {
-    background-color: lightblue;
+    background-color: rgba(173, 216, 230, 0.4);
     max-width: 768px;
   }
   @include sm {
-    background-color: tomato;
+    background-color: rgba(255, 99, 71, 0.4);
     max-width: 640px;
   }
 }
