@@ -1,5 +1,5 @@
 import { Layout } from './components'
-import { HomePage, ListPage, SinglePage } from './routes'
+import { HomePage, ListPage, ProfilePage, SinglePage } from './routes'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
         { path: '/', element: <HomePage /> },
         { path: '/list', element: <ListPage /> },
         { path: '/:id', element: <SinglePage /> },
+        { path: '/profile', element: <ProfilePage /> },
       ],
     },
   ])
